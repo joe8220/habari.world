@@ -20,10 +20,9 @@
 		get: 'user',
 		target: "instafeed-container",
     	resolution: 'low_resolution',
-		accessToken: 'IGQVJVZAzR2Wnd0N2ZAGbkxiSTd1dWZA0Ykx4Tm1SaEtoYlpyWm9QODB4dWhkUV83LW84TXhLUXZAzTUkzQlZAqcDVkZAVRUSVhSZAWswc0NzZAm1HR01xX01TSV9haTNUTzE3TnNLTXJhcjRJNEZAOTjUxbjBDQgZDZD'
+		accessToken: process.env.INSTA_ACCESS_TOKEN ?? 'IGQVJVZAzR2Wnd0N2ZAGbkxiSTd1dWZA0Ykx4Tm1SaEtoYlpyWm9QODB4dWhkUV83LW84TXhLUXZAzTUkzQlZAqcDVkZAVRUSVhSZAWswc0NzZAm1HR01xX01TSV9haTNUTzE3TnNLTXJhcjRJNEZAOTjUxbjBDQgZDZD'
 	});
 	userFeed.run();
-	console.log('12345')
 	</script>
 </body>
 </html>
